@@ -1,0 +1,116 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh !important;
+  font-family: "Noto Sans", sans-serif;
+  color: #222222;
+}
+.Pexels {
+  color: #ffffff;
+}
+
+.contenedor-a {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+}
+
+.navegador-1 a,
+i,
+button {
+  text-decoration: none;
+  margin: 10px;
+  display: inline;
+  align-items: center;
+  position: relative;
+  top: -70px;
+  left: 1100px;
+  color: #ffffff;
+}
+i {
+  position: relative;
+  top: -58px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titulo {
+  width: 50%;
+  text-align: center;
+  color: #ffffff;
+}
+button {
+  background-color: #05ba84;
+  color: #ffffff;
+  border: none;
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.input-busqueda {
+  font-size: large;
+  width: 550px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+}
+.header {
+  height: 70vh;
+  background-image: url("images/paisaje.jpg");
+  background-size: auto;
+}
+
+.navegador-2 a,
+p {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline;
+  font-size: smaller;
+  text-align: start;
+}
+
+.navegador-3 a {
+  text-decoration: none;
+  color: #222222;
+  margin: 10px;
+}
+.navegador-3 a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.navegador-3 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+.fotografias {
+  border-top: solid 2px #e6e6e6;
+}
+.fotografias h3 {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.fotografias h5 {
+  float: right;
+  margin-top: -30px;
+  margin-right: 80px;
+}
+.imagenes-nuevas img {
+  width: 30vw;
+  margin-left: 70px;
+  display: inline-block;
+}
