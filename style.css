@@ -109,8 +109,15 @@ p {
   margin-top: -30px;
   margin-right: 80px;
 }
+.imagenes-nuevas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80vw;
+  height: 900vh;
+  margin: auto;
+}
 .imagenes-nuevas img {
-  width: 30vw;
-  margin-left: 70px;
-  display: inline-block;
+  width: 26vw;
+  margin-bottom: 20px;
 }
